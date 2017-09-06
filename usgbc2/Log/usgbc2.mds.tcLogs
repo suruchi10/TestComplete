@@ -705,6 +705,15 @@
 				<Prp name="relpath" type="S" value="06-09-2017_16_57_16_171\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0076">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42984.7157675579"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3F213ED7-E62A-41D6-9CE1-92309B73BF30}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [signup]"/>
+				<Prp name="relpath" type="S" value="06-09-2017_17_10_42_317\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
