@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="community_registration()"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6218981482"/>
+					<Prp name="image file name" type="S" value="tcvi61780467464271.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="566"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="524"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.textboxPostalCode"/>
+					<Prp name="click point y" type="I" value="541"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="356"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42983.6238791319"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="730"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="689"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.Textbox(&quot;edit_address_address_line1&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="16711680"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="An object recognition hint. See Additional Information for details."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="42983.8530484375"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;namemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.{43435F8B-57F0-4858-A8C6-6CFFC97BF1CE}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;textboxPostalCode&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Textbox&lt;/td&gt;&lt;td&gt;Textbox&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;idStr&lt;/td&gt;&lt;td&gt;edit-address-postal-code--dpj_Ouh2OW4&lt;/td&gt;&lt;td&gt;edit-address-address-line1&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Update the property value in Name Mapping with the found value.&quot; href=&quot;namemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.{43435F8B-57F0-4858-A8C6-6CFFC97BF1CE}.update.idStr.@65006400690074002D0061006400640072006500730073002D0061006400640072006500730073002D006C0069006E0065003100&quot;&gt;Update&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.{43435F8B-57F0-4858-A8C6-6CFFC97BF1CE}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6218981482"/>
+					<Prp name="image file name" type="S" value="tcvi6178046746427.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="566"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="524"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.textboxPostalCode"/>
+					<Prp name="click point y" type="I" value="541"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="356"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Ambiguous recognition of the tested object."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="42983.8530451852"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;There are several objects that match the identification attributes of the &quot;&lt;a href=&quot;namemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.{6E1BA10B-9210-420E-A0CC-782A9712E5A7}&quot;&gt;panelRow&lt;/a&gt;&quot; mapped object. This may result in slow search for objects.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;To solve the problem, you may need to modify the mapping settings of the &quot;&lt;a href=&quot;namemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.{6E1BA10B-9210-420E-A0CC-782A9712E5A7}&quot;&gt;panelRow&lt;/a&gt;&quot; object or one of its parent objects.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;namemappinghideamb://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.{6E1BA10B-9210-420E-A0CC-782A9712E5A7}&quot;&gt;Disable this warning for the &quot;panelRow&quot; mapped object.&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2204&quot;&gt;See Help for more information&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6217013889"/>
+					<Prp name="image file name" type="S" value="tcvi616120374645.png"/>
+					<Prp name="object right" type="I" value="864"/>
+					<Prp name="object bottom" type="I" value="1362"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-526"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="777"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42983.6237194676"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="864"/>
+					<Prp name="object bottom" type="I" value="1362"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-462"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel"/>
+					<Prp name="click point y" type="I" value="305"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="777"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42983.8528894907"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (707, 767) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://dev-dynamic-usgbc.pantheonsite.io/community/registration&quot;).Panel(&quot;wrapper&quot;).Panel(0).Panel(1).Panel(0).Panel(0).Panel(0).Panel(&quot;block_drupal8_zymphonies_theme_content&quot;).Form(&quot;usgbc_community_registration_form&quot;).Panel(1).Panel(0).Panel(0).Panel(0))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6218402778"/>
+					<Prp name="image file name" type="S" value="tcvi6173390746421.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="576"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="535"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelEditAddressCountryCode.panelJsFormItemFormItemJsFormTyp.selectCountry"/>
+					<Prp name="click point y" type="I" value="297"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="83"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42983.6237458796"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="667"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="626"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelEditAddressCountryCode.panelJsFormItemFormItemJsFormTyp.selectCountry"/>
+					<Prp name="click point y" type="I" value="617"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="473"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The combo box item 'Iceland' was selected."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="42983.85291625"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelEditAddressCountryCode.panelJsFormItemFormItemJsFormTyp.selectCountry"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6217824074"/>
+					<Prp name="image file name" type="S" value="tcvi6167953746417.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="364"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="323"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.selectCommunityName"/>
+					<Prp name="click point y" type="I" value="16"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="160"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42983.6237330208"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="455"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="414"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.selectCommunityName"/>
+					<Prp name="click point y" type="I" value="464"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="481"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The combo box item 'USGBC Northern California' was selected."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="42983.8529039699"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.selectCommunityName"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The mouse pointer hovered over the window."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="42983.8529172917"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="Hover at point (394, 16).&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageCommunityFormDynamicUsgbc&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://dev-dynamic-usgbc.pantheonsite.io/community/registration&quot;))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42983.8530553819"/>
+			</Node>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The test run has stopped because the &quot;Stop on Error&quot; setting is enabled."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="42983.8530553819"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test execution has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;Stop on Error&lt;/a&gt; project property is enabled.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; If you don't want the test to stop on errors, disable this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.&lt;/p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the http://dev-dynamic-usgbc.pantheonsite.io/community/registrat... page."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42983.8528803356"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="URL: http://dev-dynamic-usgbc.pantheonsite.io/community/registration&#xA;&#xA;Aliases.browser"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6218981482"/>
+					<Prp name="image file name" type="S" value="tcvi61780467464272.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="566"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="524"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.textboxPostalCode"/>
+					<Prp name="click point y" type="I" value="541"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="356"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42983.6238821181"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="693"/>
+					<Prp name="object bottom" type="I" value="730"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="689"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="269"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.Textbox(&quot;edit_address_address_line1&quot;)"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="16711680"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="42983.8530516782"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;panelColMd8ColXs12UsgbcContainer&lt;/a&gt;.panel.panelUsgbcContainerInnerBox.panelUsgbcFormField.panelJsFormItemFormItemJsFormTyp2.textboxPostalCode&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{38FBB6C5-5B85-4591-BDB9-17CD32D24A67}.Aliases.browser.pageCommunityFormDynamicUsgbc.formUsgbcCommunityRegistrationFo.panelRow.panelColMd12ColXs12.panelColMd8ColXs12UsgbcContainer&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="community_registration()"/>
+			<Prp name="line no" type="I" value="6"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{DDE38F42-06AD-4184-862B-622D18F77594}"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="datetime" type="D" value="42983.6215046296"/>
+					<Prp name="image file name" type="S" value="tcvi614429663000.png"/>
+					<Prp name="object right" type="I" value="1059"/>
+					<Prp name="object bottom" type="I" value="40"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="440"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass"/>
+					<Prp name="click point y" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="758"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42983.6235851736"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="1059"/>
+					<Prp name="object bottom" type="I" value="40"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="440"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass"/>
+					<Prp name="click point y" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="758"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42983.8527616898"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (318, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass&#xA;(Sys.Process(&quot;explorer&quot;).Window(&quot;Shell_TrayWnd&quot;, &quot;&quot;, 1).Window(&quot;ReBarWindow32&quot;, &quot;&quot;, 1).Window(&quot;MSTaskSwWClass&quot;, &quot;Running applications&quot;, 1).Window(&quot;MSTaskListWClass&quot;, &quot;Running applications&quot;, 1))"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

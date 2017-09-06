@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" version="12.0">
+	<children>
+		<child name="WebAccessibility1" key="{1AD4DAD0-1084-47F3-93B5-8C6CE7D1E1EC}" type="Web Accessibility" typeId="{1F64F68B-7489-4F63-BAEF-EF1587C69DEC}" pluginName="Web Checkpoints">
+			<data path="WebAccessibility1.tcWat" />
+		</child>
+	</children>
+	<folders />
+</Root>
