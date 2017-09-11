@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{88A96F8B-732E-4175-B4E0-7CC688948DA0}" />
+	<data key="{88A96F8B-732E-4175-B4E0-7CC688948DA0}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="42983.5824768519" objectName="Aliases.browser.pageWelcomeToDynamicUsgbcDynamic.headerMainHeader.navNavbarNavbarDefault.navBlockDrupal8ZymphoniesThemeMa.linkCommunityRegistration" objectLeft="690" objectTop="110" objectRight="909" objectBottom="163" clickPointX="809" clickPointY="138" imageFileName="tcvi2771859110047.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

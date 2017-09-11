@@ -27,14 +27,19 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{82019595-EB05-41B2-B768-310ADF045058}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{e70c63b8-83b0-4e9c-9f32-48adc2f8fa35}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
-			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
-					<Prp name="editorscount" type="I" value="0"/>
+					<Node name="0">
+						<Node name="editor">
+							<Prp name="editor" type="S" value="{5544F63D-1A41-4BFB-A797-7EA6C47C2628}"/>
+							<Prp name="focused" type="S" value="{2253596A-52D4-4D89-819A-51DCA069F6EB}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696EFF9B0401000000D20100007801730C74F177F6E6664002AA2C0C0C394C480238999D8C10A93BDECFDEBBB77E745EDC79FD4AE91B594EC600A00433502E4AA2A9B95D69B5D734B1E4E87B4F64BEE900C5B381E281AC0C0CD731AD005A8C1FFC87824340734E0095A2F3F1EA4E00C9825CBC16C40002DB6F2EA18E52BFBD974FAF5B76A4464D431F28D90E14F701BAEE32B2EBB88082C10C250C890C454052812100C84A6748058AD2C1C5405B48020099724A1A"/>
+					<Prp name="editorscount" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
 				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
@@ -56,10 +61,16 @@
 							<Prp name="expandlist" type="H" value="617162696E0000000100000024000000780163626060608462200506CC40122406030000E40009"/>
 						</Node>
 					</Node>
+					<Node name="{70750283-62cb-4ca4-9f2f-24ba3383ef00}\testdata">
+						<Node name="expanding"/>
+					</Node>
 					<Node name="{8ea1f0d3-88b9-4e21-a8c0-0f3791b65aa5}\testdata">
 						<Node name="expanding">
 							<Prp name="expandlist" type="H" value="617162696E000000010000003400000078016366800046280DA298801899CF82C6070001A4000D"/>
 						</Node>
+					</Node>
+					<Node name="{bd45fd7a-a7bd-4ef7-8fa6-afa698faf80e}\testdata">
+						<Node name="expanding"/>
 					</Node>
 					<Node name="{dde38f42-06ad-4184-862b-622d18f77594}\testdata">
 						<Node name="expanding">
@@ -68,7 +79,20 @@
 					</Node>
 				</Node>
 			</Node>
-			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}"/>
+			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{88a96f8b-732e-4175-b4e0-7cc688948da0}">
+						<Node name="0">
+							<Prp name="bottom" type="I" value="14"/>
+							<Prp name="collapsed" type="B" value="0"/>
+							<Prp name="top" type="I" value="0"/>
+						</Node>
+						<Prp name="bottom" type="I" value="15"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
+				</Node>
+			</Node>
 			<Node name="{d02cce92-fd05-4f42-a803-fe08e8104e33}">
 				<Node name="hosts">
 					<Prp name="browser.sortorder" type="I" value="0"/>
@@ -82,15 +106,7 @@
 					<Prp name="width" type="I" value="0"/>
 				</Node>
 			</Node>
-			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
-				<Node name="usgbc2">
-					<Node name="usgbc2">
-						<Node name="keywordtests"/>
-						<Node name="stores"/>
-					</Node>
-				</Node>
-				<Node name="usgbc2 logs"/>
-			</Node>
+			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}"/>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
 	</Node>

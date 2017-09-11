@@ -23,6 +23,9 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{C4D7C043-B952-47F8-ABE4-FF0124E02040}"/>
 			</Node>
+			<Node name="{43694579-f253-4640-b397-80ba371a6192}">
+				<Prp name="relpath" type="S" value="..\usgbc\usgbc.mds.tcLS"/>
+			</Node>
 			<Node name="{c4d7c043-b952-47f8-abe4-ff0124e02040}">
 				<Prp name="relpath" type="S" value="usgbc2\usgbc2.mds.tcLS"/>
 			</Node>
